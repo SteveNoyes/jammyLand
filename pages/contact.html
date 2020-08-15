@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel='icon' href='../css/img/favicon_io/favicon.ico' type='image/x-icon'/ >
+    <meta charset="utf-8">
+    <title>Jammyland</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a id="topLogo" href="../index.html"><img class="topLogo" src="/css/img/jamLandLogoOpaque.png" alt="Jammyland Logo" height="44px;" width="auto"></a>
+      <div id="myLinks">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#about">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </div>
+      <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Swing by or leave us a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="../css/img/frontpage/jamLandMural.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="First name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last name..">
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Let us know your thoughts.." style="height:170px"></textarea>
+            <input class="button" type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="offwhite">
+      <div class="top_color">
+
+      </div>
+      <div class="newsletter">
+        <h2>Join our Newsletter!</h2>
+        <form>
+          <label for="name">Name:</label><br>
+          <input id="newsName" type="text" id="name" name="fname"><br>
+          <label for="lname">Email:</label><br>
+          <input type="email" id="email" name="email"><br>
+          <input class="button" id="newsButton" type="submit" name="" value="Submit">
+        </form>
+      </div>
+      <a href="../index.html"><img class="jamDog" src="/css/img/jamLandDogLogoTrans.png" alt="Jammyland Logo with Dog" height="100px;"></a>
+      <div class="social_media">
+        <a target="_blank" href="https://www.facebook.com/jammylanddtlv/"><img src="/css/img/social/facebookIcon.svg" alt="Facebook Icon" width="40px;"></a>
+        <a target="_blank" href="https://www.instagram.com/jammylandlv/"><img src="/css/img/social/InstagramSVGIcon.svg" alt="Instagram Icon" width="40px;"></a>
+        <a target="_blank" href="https://twitter.com/jammylandlv?lang=en"><img src="/css/img/social/twitterSVGIcon.svg" alt="Twitter Icon" width="40px;"></a>
+      </div>
+      <p>&#169; Jammyland 2020</p>
+
+    </footer>
+
+  <script src="../js/app.js" charset="utf-8"></script>
+  </body>
+</html>
